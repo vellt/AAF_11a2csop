@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsoleApp144")]
+[assembly: AssemblyTitle("ConsoleApp143")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConsoleApp144")]
+[assembly: AssemblyProduct("ConsoleApp143")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f9e418b7-7c4e-4597-8e63-a564d7e2d2e7")]
+[assembly: Guid("e6e500f9-6a2c-461b-a088-f8b3baf864a8")]
 
 // Version information for an assembly consists of the following four values:
 //
