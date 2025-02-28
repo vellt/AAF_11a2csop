@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\bin\Debug\ConsoleApp150.exe.config
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\bin\Debug\ConsoleApp150.exe
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\bin\Debug\ConsoleApp150.pdb
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\obj\Debug\ConsoleApp150.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\obj\Debug\ConsoleApp150.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\obj\Debug\ConsoleApp150.exe
+C:\Users\user\source\repos\ConsoleApp150\ConsoleApp150\obj\Debug\ConsoleApp150.pdb
