@@ -13,6 +13,13 @@ namespace ConsoleApp150
     {
         Keresztnev, Vezeteknev
     }
+    /// <summary>
+    /// 2. oldal 3. feladatához
+    /// </summary>
+    enum Tipus
+    {
+        kisbetu, nagybetu, szam
+    }
     class Program
     {
         /// <summary>
@@ -218,6 +225,99 @@ namespace ConsoleApp150
             }
         }
 
+        static string SzokozNelkul(string szoveg)
+        {
+            string szokozNelkuli = "";
+            for (int i = 0; i < szoveg.Length; i++)
+            {
+                if(szoveg[i]!=' ')
+                {
+                    szokozNelkuli += szoveg[i];
+                }
+            }
+            return szokozNelkuli;
+        }
+
+        static string Kisbetus(string szoveg)
+        {
+            string ujSzoveg = "";
+            for (int i = 0; i < szoveg.Length; i++)
+            {
+                if (szoveg[i]>=65 && szoveg[i]<=90) // nagybetűs
+                {
+                    ujSzoveg += (char)(szoveg[i] + 32);
+
+                }
+                else
+                {
+                    ujSzoveg += szoveg[i];
+                }
+            }
+            return ujSzoveg;
+        }
+
+        static int[] Kihagy(int[] tomb, int db)
+        {
+            int[] visszateroTomb = new int[tomb.Length - db];
+            for (int i = db; i < tomb.Length; i++)
+            {
+                visszateroTomb[i - db] = tomb[i];
+            }
+            return visszateroTomb;
+        }
+
+        static int Mennyiseg(string szoveg, Tipus tipus)
+        {
+            int db = 0;
+
+            for (int i = 0; i < szoveg.Length; i++)
+            {
+                int ascii = szoveg[i];
+                switch (tipus)
+                {
+                    case Tipus.kisbetu:
+                        if (ascii>=97 && ascii<=122)
+                        {
+                            db++;
+                        }
+                        break;
+                    case Tipus.nagybetu:
+                        if (ascii>=65 && ascii <= 90)
+                        {
+                            db++;
+                        }
+                        break;
+                    case Tipus.szam:
+                        if (ascii >=48 && ascii <=57)
+                        {
+                            db++;
+                        }
+                        break;
+                }
+            }
+            return db;
+        } 
+
+        static double GombTerfogat(double r)
+        {
+            return (4 * Math.Pow(r, 3) * Math.PI) / 3.0;
+        }
+
+        static double TeglalapTerulet(double a, double b)
+        {
+            return a * b;
+        }
+
+        static double Hatvanyozas(double a, double k)
+        {
+            double eredmeny = a;
+            for (int i = 1; i < k; i++)
+            {
+                eredmeny *= a;
+            }
+            return eredmeny;
+        }
+
         static void Main(string[] args)
         {
             // 0
@@ -256,12 +356,48 @@ namespace ConsoleApp150
             TombKiiratasa(new int[] { 1, 2, 3 }); // 1 2 3
             TombKiiratasa(new string[] { "ALMA", "KÖRTE", "BARACK" }); // ALMA KÖRTE BARACK
 
+            // 7
+            Console.WriteLine(SzokozNelkul("Induljunk mar haaazaa")); 
+
             // 8
             Console.WriteLine(Nagybetus("az Almafat 4x vagtak ki az iden")); // AZ ALMAFAT 4X VAGTAK KI AZ IDEN
+
+            // 9
+            Console.WriteLine(Kisbetus("ALMAaaa"));
+
+            // 10
+            string mondat = "sok ákos";
+            string a =Kisbetus(SzokozNelkul(mondat));
+            string b =ForditottAlak(Kisbetus(SzokozNelkul(mondat)));
+            if (a==b)
+            {
+                Console.WriteLine("Ez a mondat Palindrom");
+            }
+
+            // 2. oldal 1-es feladat
+            int[] tomb = Kihagy(new int[] { 5, 10, 25, 3, 45 }, 3);
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                Console.WriteLine(tomb[i]);
+            }
 
             // 2. oldal 2-es feladata
             Console.WriteLine(Nev("Szántó Benjámin", NevResz.Keresztnev)); // Benjámin
             Console.WriteLine(Nev("Szántó Benjámin", NevResz.Vezeteknev)); // Szántó
+
+            // 2. oldal 3-as feladat
+            string sz = "A SKANDINAV lotto 5 számát 4 ember kitalálta";
+            Console.WriteLine(Mennyiseg(sz,Tipus.kisbetu));
+            Console.WriteLine(Mennyiseg(sz,Tipus.nagybetu));
+            Console.WriteLine(Mennyiseg(sz,Tipus.szam));
+
+            // plusz feladatok
+            // hatványozó függvény írása
+            Console.WriteLine(Hatvanyozas(2, 4));
+            // gömb térfogatot számoló függvény írása
+            Console.WriteLine(Math.Round(GombTerfogat(2), 2));
+            // téglalap területetét számoló függvény írása
+            Console.WriteLine(Math.Round(TeglalapTerulet(5, 10.7), 2));
 
             Console.ReadKey();
         }
