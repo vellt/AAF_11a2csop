@@ -1,7 +1,0 @@
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\bin\Debug\ConsoleApp160.exe.config
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\bin\Debug\ConsoleApp160.exe
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\bin\Debug\ConsoleApp160.pdb
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\obj\Debug\ConsoleApp160.csprojAssemblyReference.cache
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\obj\Debug\ConsoleApp160.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\obj\Debug\ConsoleApp160.exe
-C:\Users\user\source\repos\ConsoleApp160\ConsoleApp160\obj\Debug\ConsoleApp160.pdb
