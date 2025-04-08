@@ -1,6 +1,0 @@
-C:\Users\user\source\repos\ConsoleApp170\kettes\bin\Debug\kettes.exe.config
-C:\Users\user\source\repos\ConsoleApp170\kettes\bin\Debug\kettes.exe
-C:\Users\user\source\repos\ConsoleApp170\kettes\bin\Debug\kettes.pdb
-C:\Users\user\source\repos\ConsoleApp170\kettes\obj\Debug\Feladat2.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\ConsoleApp170\kettes\obj\Debug\kettes.exe
-C:\Users\user\source\repos\ConsoleApp170\kettes\obj\Debug\kettes.pdb

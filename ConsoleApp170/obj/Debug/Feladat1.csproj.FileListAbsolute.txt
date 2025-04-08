@@ -1,7 +1,0 @@
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\bin\Debug\ConsoleApp170.exe.config
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\bin\Debug\ConsoleApp170.exe
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\bin\Debug\ConsoleApp170.pdb
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\obj\Debug\Feladat1.csprojAssemblyReference.cache
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\obj\Debug\Feladat1.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\obj\Debug\ConsoleApp170.exe
-C:\Users\user\source\repos\ConsoleApp170\ConsoleApp170\obj\Debug\ConsoleApp170.pdb
