@@ -1,7 +1,0 @@
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\bin\Debug\ConsoleApp199.exe.config
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\bin\Debug\ConsoleApp199.exe
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\bin\Debug\ConsoleApp199.pdb
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\obj\Debug\ConsoleApp199.csprojAssemblyReference.cache
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\obj\Debug\ConsoleApp199.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\obj\Debug\ConsoleApp199.exe
-C:\Users\user\source\repos\ConsoleApp199\ConsoleApp199\obj\Debug\ConsoleApp199.pdb
