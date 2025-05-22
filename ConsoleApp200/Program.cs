@@ -111,12 +111,9 @@ namespace ConsoleApp200
             int maxIndex = 0;
             for (int i = 0; i < adatok.Count(); i++)
             {
-                if (adatok[i].Helyezes >= 1 && adatok[i].Helyezes <= 6)
+                if (adatok[i].SportolokSzama > adatok[maxIndex].SportolokSzama)
                 {
-                    if (adatok[i].SportolokSzama > adatok[maxIndex].SportolokSzama)
-                    {
-                        maxIndex = i;
-                    }
+                    maxIndex = i;
                 }
             }
             Adat feladat8 = adatok[maxIndex];
