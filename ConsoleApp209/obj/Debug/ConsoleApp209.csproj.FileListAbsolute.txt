@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\bin\Debug\ConsoleApp209.exe.config
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\bin\Debug\ConsoleApp209.exe
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\bin\Debug\ConsoleApp209.pdb
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\obj\Debug\ConsoleApp209.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\obj\Debug\ConsoleApp209.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\obj\Debug\ConsoleApp209.exe
+C:\Users\user\source\repos\ConsoleApp209\ConsoleApp209\obj\Debug\ConsoleApp209.pdb
