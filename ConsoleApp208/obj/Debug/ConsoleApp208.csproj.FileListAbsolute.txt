@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\bin\Debug\ConsoleApp208.exe.config
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\bin\Debug\ConsoleApp208.exe
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\bin\Debug\ConsoleApp208.pdb
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\obj\Debug\ConsoleApp208.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\obj\Debug\ConsoleApp208.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\obj\Debug\ConsoleApp208.exe
+C:\Users\user\source\repos\ConsoleApp208\ConsoleApp208\obj\Debug\ConsoleApp208.pdb
